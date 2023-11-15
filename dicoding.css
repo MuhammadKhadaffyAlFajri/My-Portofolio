@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* adding shadow effect */
+  }
+
+  .flex-item {
+    background-color: lightblue;
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+  }

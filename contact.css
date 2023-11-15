@@ -1,0 +1,35 @@
+body {
+    
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    height: 80px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline overline;
+    background-color: white;
+    color: pink;
+  }
